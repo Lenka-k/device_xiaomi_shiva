@@ -37,14 +37,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := shiva
-PRODUCT_NAME := lineage_shiva
+PRODUCT_NAME := ankeezay_shiva
 PRODUCT_BRAND := POCO
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := shiva
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="shiva-user 11 RP1A.200720.011 V12.0.1.0.RJCMIXM release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="shiva-user 11 RP1A.200720.011 V12.5.6.0.RJRINXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := POCO/shiva_global/shiva:11/RP1A.200720.011/V12.0.1.0.RJCMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/shiva/shiva:11/RP1A.200720.011/V12.5.6.0.RJRINXM:user/release-keys
